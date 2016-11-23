@@ -1,15 +1,24 @@
 PODS:
   - HandyFrame (1.0.2)
   - Masonry (0.6.4)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
 
 DEPENDENCIES:
   - HandyFrame
   - Masonry
+  - ReactiveCocoa
 
 SPEC CHECKSUMS:
   HandyFrame: d93b50479d8ca37c0055e5fcf85fce133689062d
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: d45cd7d8d30b730915149a9c4958ef5ae5c116de
+PODFILE CHECKSUM: 8f0938f81899bfe291bb490a8a7f08c312cf0b10
 
 COCOAPODS: 1.0.0

@@ -116,15 +116,90 @@ alpha:(a)])
 
 #pragma mark - System Singletons
 
-// Get NSUserDefault objecet
+// More easy way to Get NSUserDefault objecet
+#define kUserDefaults [NSUserDefaults standardUserDefaults]
 
-// Get NSNOtificationCenter object
+// More easy way to Get NSNOtificationCenter object
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
 
-// Post a notification from notification center.
+// More easy way to Post a notification from notification center.
+#define kPostNotificationWithName(notificationName)\
+[kNotificationCenter postNotificationName:notificationName object:nil userInfo:nil]
+
+// More easy way to Post a notification with user info from notification cencer.
+#define kPostNotificationWithNameAndUserInfo(notificationName, userInfo)\
+[[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:userInfo];
 
 // Get NSFileManager object
+#define kFileManager [NSFileManager defaultManager]
 
-//
+#pragma mark - Judge
+
+// Judge whether it is an empty string.
+#define kIsEmptyString(s) (s == nil || [s isKindOfClass:[NSNull class]] || ([s isKindOfClass:[NSString class] && s.length == 0]))
+
+// Judge whether it is a nil or null object.
+#define kIsEmptyObject(obj) (obj == nil || [obj isKindOfClass:[NSNull class]])
+
+// Judge whether it is a void dictionary.
+#define kIsDictionary(objDict) (objDict != nil && [objDict isKindOfClass:[NSDictionary class]])
+
+// Judge whether it is a void array.
+#define kIsArray(objArray) (objArray != nil && [objArray isKindOfClass:[NSArray class]])
+
+// Judge whether the device it is iPad.
+#define kIsIPad \
+([[UIDevice currentDevice] respondsToSelector:@selector(userInterfaceIdiom)]\
+&& [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+// Judge whether current orientation is landscape.
+#define kIsLandscape (UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))
+
+#pragma mark - Blocks
+
+typedef void (^VVErrorBlock) (NSError *error);
+
+typedef void (^VVVoidBlock) (void);
+
+typedef void (^VVBoolBlock) (BOOL result);
+
+typedef void (^VVStringBlock) (NSString *result);
+
+typedef void (^VVArrayBlock) (NSArray *list);
+
+typedef void (^VVArrayMessageBlock) (NSArray *list, NSString *msg);
+
+typedef void (^VVDictionaryBlock) (NSDictionary *response);
+
+typedef void (^VVDictionaryMessageBlock) (NSDictionary *response, NSString *msg);
+
+typedef void (^VVNumberBlock) (NSNumber *resultNumber);
+
+typedef void (^VVNumberMessageBlock) (NSNumber *resultNumber, NSString *msg);
+
+typedef void (^VVIdBlock) (id result);
+
+typedef void (^VVNotificationBlock) (NSNotification *sender);
+
+typedef void (^VVButtonBlock) (UIButton *sender);
+
+typedef void (^VVButtonIndexBlock) (NSUInteger index, UIButton *sender);
+
+typedef void (^VVValueChangedBlock) (id sender);
+
+typedef void (^VVEditChangedBlock) (id sender);
+
+typedef void (^VVGestureBlock) (UIGestureRecognizer *sender);
+
+typedef void (^VVLongGestureBlock) (UILongPressGestureRecognizer *sender);
+
+typedef void (^VVTapGestureBlock) (UITapGestureRecognizer *sender);
+
+typedef void (^VVConstraintMaker) (MASConstraintMaker *make);
+
+#pragma mark - Cell
+
+static NSString *kVVCellIdentifier = @"VVCommonCellIdentifier";
 
 @interface VVCommonKit : NSObject
 

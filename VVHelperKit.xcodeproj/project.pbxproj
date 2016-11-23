@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4C3923D7BA06B0C10162203D /* libPods-VVHelperKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495828CB5C370854B2F2EDF /* libPods-VVHelperKit.a */; };
+		A051A84B1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A84A1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m */; };
+		A051A84E1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A84D1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m */; };
+		A051A8531DE5347800347AE0 /* NSObject+VVHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8521DE5347800347AE0 /* NSObject+VVHelperKit.m */; };
+		A051A8781DE571CE00347AE0 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8671DE571CE00347AE0 /* GCDViewController.m */; };
+		A051A8791DE571CE00347AE0 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A051A8681DE571CE00347AE0 /* GCDViewController.xib */; };
+		A051A87A1DE571CE00347AE0 /* KeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A86A1DE571CE00347AE0 /* KeyValueObserver.m */; };
+		A051A87B1DE571CE00347AE0 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A86C1DE571CE00347AE0 /* KVCViewController.m */; };
+		A051A87C1DE571CE00347AE0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A86E1DE571CE00347AE0 /* KVOViewController.m */; };
+		A051A87D1DE571CE00347AE0 /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A051A86F1DE571CE00347AE0 /* KVOViewController.xib */; };
+		A051A87E1DE571CE00347AE0 /* LabColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8711DE571CE00347AE0 /* LabColor.m */; };
+		A051A87F1DE571CE00347AE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8721DE571CE00347AE0 /* main.m */; };
+		A051A8801DE571CE00347AE0 /* myKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8741DE571CE00347AE0 /* myKVO.m */; };
+		A051A8811DE571CE00347AE0 /* OperaationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8761DE571CE00347AE0 /* OperaationViewController.m */; };
+		A051A8821DE571CE00347AE0 /* OperaationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A051A8771DE571CE00347AE0 /* OperaationViewController.xib */; };
+		A051A8851DE575B800347AE0 /* VVRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8841DE575B800347AE0 /* VVRACViewController.m */; };
 		A0BF487D1DDD777A00934983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF487C1DDD777A00934983 /* main.m */; };
 		A0BF48801DDD777A00934983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF487F1DDD777A00934983 /* AppDelegate.m */; };
 		A0BF48831DDD777A00934983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF48821DDD777A00934983 /* ViewController.m */; };
@@ -15,16 +30,38 @@
 		A0BF48881DDD777A00934983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BF48871DDD777A00934983 /* Assets.xcassets */; };
 		A0BF488B1DDD777A00934983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BF48891DDD777A00934983 /* LaunchScreen.storyboard */; };
 		A0BF48981DDD79BE00934983 /* VVCommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF48971DDD79BE00934983 /* VVCommonKit.m */; };
-		A0BF48A91DDDABF400934983 /* OperaationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF48A71DDDABF400934983 /* OperaationViewController.m */; };
-		A0BF48AA1DDDABF400934983 /* OperaationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BF48A81DDDABF400934983 /* OperaationViewController.xib */; };
-		A0BF48AE1DDDAC1A00934983 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF48AC1DDDAC1A00934983 /* GCDViewController.m */; };
-		A0BF48AF1DDDAC1A00934983 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BF48AD1DDDAC1A00934983 /* GCDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		309DBF5DBAEF71C435969AA9 /* Pods-VVHelperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVHelperKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVHelperKit/Pods-VVHelperKit.release.xcconfig"; sourceTree = "<group>"; };
 		8495828CB5C370854B2F2EDF /* libPods-VVHelperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVHelperKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AA388A2A55E274CCB23400 /* Pods-VVHelperKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVHelperKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVHelperKit/Pods-VVHelperKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A051A8491DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+VVHelperKitUIKit.h"; sourceTree = "<group>"; };
+		A051A84A1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+VVHelperKitUIKit.m"; sourceTree = "<group>"; };
+		A051A84C1DE4435400347AE0 /* UIView+VVHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VVHelperKitUIKit.h"; sourceTree = "<group>"; };
+		A051A84D1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VVHelperKitUIKit.m"; sourceTree = "<group>"; };
+		A051A8511DE5347800347AE0 /* NSObject+VVHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VVHelperKit.h"; sourceTree = "<group>"; };
+		A051A8521DE5347800347AE0 /* NSObject+VVHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VVHelperKit.m"; sourceTree = "<group>"; };
+		A051A8661DE571CE00347AE0 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		A051A8671DE571CE00347AE0 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		A051A8681DE571CE00347AE0 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		A051A8691DE571CE00347AE0 /* KeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueObserver.h; sourceTree = "<group>"; };
+		A051A86A1DE571CE00347AE0 /* KeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserver.m; sourceTree = "<group>"; };
+		A051A86B1DE571CE00347AE0 /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		A051A86C1DE571CE00347AE0 /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
+		A051A86D1DE571CE00347AE0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		A051A86E1DE571CE00347AE0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		A051A86F1DE571CE00347AE0 /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
+		A051A8701DE571CE00347AE0 /* LabColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabColor.h; sourceTree = "<group>"; };
+		A051A8711DE571CE00347AE0 /* LabColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabColor.m; sourceTree = "<group>"; };
+		A051A8721DE571CE00347AE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A051A8731DE571CE00347AE0 /* myKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myKVO.h; sourceTree = "<group>"; };
+		A051A8741DE571CE00347AE0 /* myKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myKVO.m; sourceTree = "<group>"; };
+		A051A8751DE571CE00347AE0 /* OperaationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperaationViewController.h; sourceTree = "<group>"; };
+		A051A8761DE571CE00347AE0 /* OperaationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperaationViewController.m; sourceTree = "<group>"; };
+		A051A8771DE571CE00347AE0 /* OperaationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperaationViewController.xib; sourceTree = "<group>"; };
+		A051A8831DE575B800347AE0 /* VVRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVRACViewController.h; sourceTree = "<group>"; };
+		A051A8841DE575B800347AE0 /* VVRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVRACViewController.m; sourceTree = "<group>"; };
 		A0BF48781DDD777A00934983 /* VVHelperKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVHelperKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BF487C1DDD777A00934983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0BF487E1DDD777A00934983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,12 +75,6 @@
 		A0BF48961DDD79BE00934983 /* VVCommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVCommonKit.h; sourceTree = "<group>"; };
 		A0BF48971DDD79BE00934983 /* VVCommonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVCommonKit.m; sourceTree = "<group>"; };
 		A0BF48A11DDD8A1E00934983 /* VVHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVHelperKit.h; path = ../../VVHelperKit.h; sourceTree = "<group>"; };
-		A0BF48A61DDDABF400934983 /* OperaationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperaationViewController.h; sourceTree = "<group>"; };
-		A0BF48A71DDDABF400934983 /* OperaationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperaationViewController.m; sourceTree = "<group>"; };
-		A0BF48A81DDDABF400934983 /* OperaationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperaationViewController.xib; sourceTree = "<group>"; };
-		A0BF48AB1DDDAC1A00934983 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
-		A0BF48AC1DDDAC1A00934983 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
-		A0BF48AD1DDDAC1A00934983 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +106,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A051A8451DE3D77B00347AE0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A051A8491DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.h */,
+				A051A84A1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m */,
+				A051A84C1DE4435400347AE0 /* UIView+VVHelperKitUIKit.h */,
+				A051A84D1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A051A8501DE5337200347AE0 /* FoundationKit */ = {
+			isa = PBXGroup;
+			children = (
+				A051A8511DE5347800347AE0 /* NSObject+VVHelperKit.h */,
+				A051A8521DE5347800347AE0 /* NSObject+VVHelperKit.m */,
+			);
+			path = FoundationKit;
+			sourceTree = "<group>";
+		};
+		A051A8651DE571CE00347AE0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A051A8661DE571CE00347AE0 /* GCDViewController.h */,
+				A051A8671DE571CE00347AE0 /* GCDViewController.m */,
+				A051A8681DE571CE00347AE0 /* GCDViewController.xib */,
+				A051A8691DE571CE00347AE0 /* KeyValueObserver.h */,
+				A051A86A1DE571CE00347AE0 /* KeyValueObserver.m */,
+				A051A86B1DE571CE00347AE0 /* KVCViewController.h */,
+				A051A86C1DE571CE00347AE0 /* KVCViewController.m */,
+				A051A86D1DE571CE00347AE0 /* KVOViewController.h */,
+				A051A86E1DE571CE00347AE0 /* KVOViewController.m */,
+				A051A86F1DE571CE00347AE0 /* KVOViewController.xib */,
+				A051A8701DE571CE00347AE0 /* LabColor.h */,
+				A051A8711DE571CE00347AE0 /* LabColor.m */,
+				A051A8721DE571CE00347AE0 /* main.m */,
+				A051A8731DE571CE00347AE0 /* myKVO.h */,
+				A051A8741DE571CE00347AE0 /* myKVO.m */,
+				A051A8751DE571CE00347AE0 /* OperaationViewController.h */,
+				A051A8761DE571CE00347AE0 /* OperaationViewController.m */,
+				A051A8771DE571CE00347AE0 /* OperaationViewController.xib */,
+				A051A8831DE575B800347AE0 /* VVRACViewController.h */,
+				A051A8841DE575B800347AE0 /* VVRACViewController.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
 		A0BF486F1DDD777A00934983 = {
 			isa = PBXGroup;
 			children = (
@@ -97,14 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				A0BF48941DDD795F00934983 /* VVHelpKitSource */,
+				A051A8651DE571CE00347AE0 /* class */,
 				A0BF487E1DDD777A00934983 /* AppDelegate.h */,
 				A0BF487F1DDD777A00934983 /* AppDelegate.m */,
-				A0BF48A61DDDABF400934983 /* OperaationViewController.h */,
-				A0BF48A71DDDABF400934983 /* OperaationViewController.m */,
-				A0BF48A81DDDABF400934983 /* OperaationViewController.xib */,
-				A0BF48AB1DDDAC1A00934983 /* GCDViewController.h */,
-				A0BF48AC1DDDAC1A00934983 /* GCDViewController.m */,
-				A0BF48AD1DDDAC1A00934983 /* GCDViewController.xib */,
 				A0BF48811DDD777A00934983 /* ViewController.h */,
 				A0BF48821DDD777A00934983 /* ViewController.m */,
 				A0BF48841DDD777A00934983 /* Main.storyboard */,
@@ -128,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				A0BF48A11DDD8A1E00934983 /* VVHelperKit.h */,
+				A051A8501DE5337200347AE0 /* FoundationKit */,
+				A051A8451DE3D77B00347AE0 /* UIKit */,
 				A0BF48951DDD799200934983 /* CommonKit */,
 			);
 			path = VVHelpKitSource;
@@ -205,11 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A051A87D1DE571CE00347AE0 /* KVOViewController.xib in Resources */,
 				A0BF488B1DDD777A00934983 /* LaunchScreen.storyboard in Resources */,
 				A0BF48881DDD777A00934983 /* Assets.xcassets in Resources */,
-				A0BF48AA1DDDABF400934983 /* OperaationViewController.xib in Resources */,
 				A0BF48861DDD777A00934983 /* Main.storyboard in Resources */,
-				A0BF48AF1DDDAC1A00934983 /* GCDViewController.xib in Resources */,
+				A051A8821DE571CE00347AE0 /* OperaationViewController.xib in Resources */,
+				A051A8791DE571CE00347AE0 /* GCDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +344,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A051A87F1DE571CE00347AE0 /* main.m in Sources */,
+				A051A8851DE575B800347AE0 /* VVRACViewController.m in Sources */,
 				A0BF48831DDD777A00934983 /* ViewController.m in Sources */,
-				A0BF48AE1DDDAC1A00934983 /* GCDViewController.m in Sources */,
+				A051A84B1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m in Sources */,
+				A051A84E1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m in Sources */,
+				A051A87C1DE571CE00347AE0 /* KVOViewController.m in Sources */,
+				A051A8781DE571CE00347AE0 /* GCDViewController.m in Sources */,
+				A051A8531DE5347800347AE0 /* NSObject+VVHelperKit.m in Sources */,
+				A051A87B1DE571CE00347AE0 /* KVCViewController.m in Sources */,
 				A0BF48981DDD79BE00934983 /* VVCommonKit.m in Sources */,
 				A0BF48801DDD777A00934983 /* AppDelegate.m in Sources */,
-				A0BF48A91DDDABF400934983 /* OperaationViewController.m in Sources */,
+				A051A8801DE571CE00347AE0 /* myKVO.m in Sources */,
+				A051A87A1DE571CE00347AE0 /* KeyValueObserver.m in Sources */,
 				A0BF487D1DDD777A00934983 /* main.m in Sources */,
+				A051A8811DE571CE00347AE0 /* OperaationViewController.m in Sources */,
+				A051A87E1DE571CE00347AE0 /* LabColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
