@@ -10,6 +10,7 @@
 #import "VVHelperKit.h"
 #import "AppDelegate.h"
 #import "GCDViewController.h"
+#import "VVRACViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) GCDViewController *gcdViewController;
@@ -20,12 +21,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setNotificationCenter];
-    [self settingBlock];
-    [self setConvert];
+//    [self setNotificationCenter];
+//    [self settingBlock];
+//    [self setConvert];
 }
 - (IBAction)pushVC:(id)sender {
-    [self presentViewController:self.gcdViewController animated:YES completion:nil];
+//    [self presentViewController:self.gcdViewController animated:YES completion:nil];
+
+    [self.navigationController pushViewController:[[VVRACViewController alloc] init] animated:YES];
 }
 #pragma mark - convertPoint坐标转换规律
 - (void)setConvert{
@@ -70,7 +73,6 @@
      ==> result = bView.origin + point - aView.origin
      */
 }
-
 
 #pragma mark - NSNotificationCenter
 - (void)setNotificationCenter{

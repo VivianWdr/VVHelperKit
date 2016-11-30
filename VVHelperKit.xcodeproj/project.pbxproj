@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C3923D7BA06B0C10162203D /* libPods-VVHelperKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8495828CB5C370854B2F2EDF /* libPods-VVHelperKit.a */; };
+		A03546D91DEE67A600CA9D26 /* libHandyFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A03546D81DEE67A600CA9D26 /* libHandyFrame.a */; };
+		A03546DB1DEE67A900CA9D26 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A03546DA1DEE67A900CA9D26 /* libMasonry.a */; };
+		A03546DD1DEE67B200CA9D26 /* libReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A03546DC1DEE67B200CA9D26 /* libReactiveCocoa.a */; };
 		A051A84B1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A84A1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m */; };
 		A051A84E1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A84D1DE4435400347AE0 /* UIView+VVHelperKitUIKit.m */; };
 		A051A8531DE5347800347AE0 /* NSObject+VVHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8521DE5347800347AE0 /* NSObject+VVHelperKit.m */; };
@@ -23,7 +26,6 @@
 		A051A8811DE571CE00347AE0 /* OperaationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8761DE571CE00347AE0 /* OperaationViewController.m */; };
 		A051A8821DE571CE00347AE0 /* OperaationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A051A8771DE571CE00347AE0 /* OperaationViewController.xib */; };
 		A051A8851DE575B800347AE0 /* VVRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A051A8841DE575B800347AE0 /* VVRACViewController.m */; };
-		A0BF487D1DDD777A00934983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF487C1DDD777A00934983 /* main.m */; };
 		A0BF48801DDD777A00934983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF487F1DDD777A00934983 /* AppDelegate.m */; };
 		A0BF48831DDD777A00934983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF48821DDD777A00934983 /* ViewController.m */; };
 		A0BF48861DDD777A00934983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BF48841DDD777A00934983 /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 		309DBF5DBAEF71C435969AA9 /* Pods-VVHelperKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVHelperKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVHelperKit/Pods-VVHelperKit.release.xcconfig"; sourceTree = "<group>"; };
 		8495828CB5C370854B2F2EDF /* libPods-VVHelperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVHelperKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AA388A2A55E274CCB23400 /* Pods-VVHelperKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVHelperKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVHelperKit/Pods-VVHelperKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A03546D51DEE64F000CA9D26 /* VVHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVHelperKit.h; path = VVHelperKit/VVHelperKit.h; sourceTree = SOURCE_ROOT; };
+		A03546D81DEE67A600CA9D26 /* libHandyFrame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHandyFrame.a; path = "../../Library/Developer/Xcode/DerivedData/VVHelperKit-ehlnhexedjqnbmewynxbupuhqdao/Build/Products/Debug-iphonesimulator/HandyFrame/libHandyFrame.a"; sourceTree = "<group>"; };
+		A03546DA1DEE67A900CA9D26 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "../../Library/Developer/Xcode/DerivedData/VVHelperKit-ehlnhexedjqnbmewynxbupuhqdao/Build/Products/Debug-iphonesimulator/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		A03546DC1DEE67B200CA9D26 /* libReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReactiveCocoa.a; path = "../../Library/Developer/Xcode/DerivedData/VVHelperKit-ehlnhexedjqnbmewynxbupuhqdao/Build/Products/Debug-iphonesimulator/ReactiveCocoa/libReactiveCocoa.a"; sourceTree = "<group>"; };
 		A051A8491DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+VVHelperKitUIKit.h"; sourceTree = "<group>"; };
 		A051A84A1DE43B8B00347AE0 /* UIDevice+VVHelperKitUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+VVHelperKitUIKit.m"; sourceTree = "<group>"; };
 		A051A84C1DE4435400347AE0 /* UIView+VVHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VVHelperKitUIKit.h"; sourceTree = "<group>"; };
@@ -54,7 +60,7 @@
 		A051A86F1DE571CE00347AE0 /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
 		A051A8701DE571CE00347AE0 /* LabColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabColor.h; sourceTree = "<group>"; };
 		A051A8711DE571CE00347AE0 /* LabColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabColor.m; sourceTree = "<group>"; };
-		A051A8721DE571CE00347AE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A051A8721DE571CE00347AE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = class/main.m; sourceTree = "<group>"; };
 		A051A8731DE571CE00347AE0 /* myKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myKVO.h; sourceTree = "<group>"; };
 		A051A8741DE571CE00347AE0 /* myKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myKVO.m; sourceTree = "<group>"; };
 		A051A8751DE571CE00347AE0 /* OperaationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperaationViewController.h; sourceTree = "<group>"; };
@@ -63,18 +69,16 @@
 		A051A8831DE575B800347AE0 /* VVRACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVRACViewController.h; sourceTree = "<group>"; };
 		A051A8841DE575B800347AE0 /* VVRACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVRACViewController.m; sourceTree = "<group>"; };
 		A0BF48781DDD777A00934983 /* VVHelperKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVHelperKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0BF487C1DDD777A00934983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0BF487E1DDD777A00934983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0BF487F1DDD777A00934983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0BF48811DDD777A00934983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0BF48821DDD777A00934983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0BF48811DDD777A00934983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		A0BF48821DDD777A00934983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		A0BF48851DDD777A00934983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0BF48871DDD777A00934983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BF488A1DDD777A00934983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BF488C1DDD777A00934983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BF48961DDD79BE00934983 /* VVCommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVCommonKit.h; sourceTree = "<group>"; };
 		A0BF48971DDD79BE00934983 /* VVCommonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVCommonKit.m; sourceTree = "<group>"; };
-		A0BF48A11DDD8A1E00934983 /* VVHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVHelperKit.h; path = ../../VVHelperKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03546DD1DEE67B200CA9D26 /* libReactiveCocoa.a in Frameworks */,
+				A03546DB1DEE67A900CA9D26 /* libMasonry.a in Frameworks */,
+				A03546D91DEE67A600CA9D26 /* libHandyFrame.a in Frameworks */,
 				4C3923D7BA06B0C10162203D /* libPods-VVHelperKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +108,9 @@
 		6C0A41AABDDAA3BA4CF4E775 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A03546DC1DEE67B200CA9D26 /* libReactiveCocoa.a */,
+				A03546DA1DEE67A900CA9D26 /* libMasonry.a */,
+				A03546D81DEE67A600CA9D26 /* libHandyFrame.a */,
 				8495828CB5C370854B2F2EDF /* libPods-VVHelperKit.a */,
 			);
 			name = Frameworks;
@@ -129,6 +139,36 @@
 		A051A8651DE571CE00347AE0 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				A09103581DEEC5810088F6F2 /* Controllers */,
+				A09103571DEEC5710088F6F2 /* Models */,
+				A09103561DEEC55B0088F6F2 /* Views */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		A09103561DEEC55B0088F6F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A051A8701DE571CE00347AE0 /* LabColor.h */,
+				A051A8711DE571CE00347AE0 /* LabColor.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A09103571DEEC5710088F6F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A051A8731DE571CE00347AE0 /* myKVO.h */,
+				A051A8741DE571CE00347AE0 /* myKVO.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A09103581DEEC5810088F6F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0BF48811DDD777A00934983 /* ViewController.h */,
+				A0BF48821DDD777A00934983 /* ViewController.m */,
 				A051A8661DE571CE00347AE0 /* GCDViewController.h */,
 				A051A8671DE571CE00347AE0 /* GCDViewController.m */,
 				A051A8681DE571CE00347AE0 /* GCDViewController.xib */,
@@ -139,18 +179,13 @@
 				A051A86D1DE571CE00347AE0 /* KVOViewController.h */,
 				A051A86E1DE571CE00347AE0 /* KVOViewController.m */,
 				A051A86F1DE571CE00347AE0 /* KVOViewController.xib */,
-				A051A8701DE571CE00347AE0 /* LabColor.h */,
-				A051A8711DE571CE00347AE0 /* LabColor.m */,
-				A051A8721DE571CE00347AE0 /* main.m */,
-				A051A8731DE571CE00347AE0 /* myKVO.h */,
-				A051A8741DE571CE00347AE0 /* myKVO.m */,
 				A051A8751DE571CE00347AE0 /* OperaationViewController.h */,
 				A051A8761DE571CE00347AE0 /* OperaationViewController.m */,
 				A051A8771DE571CE00347AE0 /* OperaationViewController.xib */,
 				A051A8831DE575B800347AE0 /* VVRACViewController.h */,
 				A051A8841DE575B800347AE0 /* VVRACViewController.m */,
 			);
-			path = class;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		A0BF486F1DDD777A00934983 = {
@@ -178,8 +213,6 @@
 				A051A8651DE571CE00347AE0 /* class */,
 				A0BF487E1DDD777A00934983 /* AppDelegate.h */,
 				A0BF487F1DDD777A00934983 /* AppDelegate.m */,
-				A0BF48811DDD777A00934983 /* ViewController.h */,
-				A0BF48821DDD777A00934983 /* ViewController.m */,
 				A0BF48841DDD777A00934983 /* Main.storyboard */,
 				A0BF48871DDD777A00934983 /* Assets.xcassets */,
 				A0BF48891DDD777A00934983 /* LaunchScreen.storyboard */,
@@ -192,7 +225,7 @@
 		A0BF487B1DDD777A00934983 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0BF487C1DDD777A00934983 /* main.m */,
+				A051A8721DE571CE00347AE0 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,7 +233,7 @@
 		A0BF48941DDD795F00934983 /* VVHelpKitSource */ = {
 			isa = PBXGroup;
 			children = (
-				A0BF48A11DDD8A1E00934983 /* VVHelperKit.h */,
+				A03546D51DEE64F000CA9D26 /* VVHelperKit.h */,
 				A051A8501DE5337200347AE0 /* FoundationKit */,
 				A051A8451DE3D77B00347AE0 /* UIKit */,
 				A0BF48951DDD799200934983 /* CommonKit */,
@@ -357,7 +390,6 @@
 				A0BF48801DDD777A00934983 /* AppDelegate.m in Sources */,
 				A051A8801DE571CE00347AE0 /* myKVO.m in Sources */,
 				A051A87A1DE571CE00347AE0 /* KeyValueObserver.m in Sources */,
-				A0BF487D1DDD777A00934983 /* main.m in Sources */,
 				A051A8811DE571CE00347AE0 /* OperaationViewController.m in Sources */,
 				A051A87E1DE571CE00347AE0 /* LabColor.m in Sources */,
 			);
@@ -403,6 +435,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -450,6 +483,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -479,8 +513,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RCN4MELDH7;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = VVHelperKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-l\"Masonry\"",
+					"-l\"HandyFrame\"",
+					"-l\"ReactiveCocoa\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vivi.VVHelperKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -493,7 +540,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RCN4MELDH7;
 				INFOPLIST_FILE = VVHelperKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-l\"Masonry\"",
+					"-l\"HandyFrame\"",
+					"-l\"ReactiveCocoa\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vivi.VVHelperKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
