@@ -116,6 +116,32 @@ myDelegate
         view;
     });
     [sujectBtn addTarget:self action:@selector(pushKVOViewController) forControlEvents:UIControlEventTouchUpInside];
+    
+    UITextField *textField = ({
+        UITextField *view = [UITextField new];
+        [self.view addSubview:view];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(sujectBtn.mas_bottom).mas_offset(50);
+            make.left.equalTo(sujectBtn.mas_left).mas_offset(50);
+            make.width.equalTo(@80);
+            make.height.equalTo(@30);
+        }];
+        view.backgroundColor = [UIColor yellowColor];
+        view;
+    });
+    
+    UILabel *label = ({
+        UILabel *view = [UILabel new];
+        [self.view addSubview:view];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(textField.mas_bottom).mas_offset(10);
+            make.left.equalTo(textField.mas_left);
+            make.width.equalTo(@80);
+            make.height.equalTo(@30);
+        }];
+        view.backgroundColor = [UIColor grayColor];
+        view;
+    });
 }
 //跳转KVO控制器
 - (void) pushKVOViewController{
@@ -285,6 +311,21 @@ myDelegate
             
             NSLog(@"%@",x);
         }];
+    }];
+}
+
+#pragma mark - RACMulticastConnection 用户当一个信号，被多次订阅时，为了保证创建信号时，避免多次调用创建信号中的block，造成副作用，可以使用这个类处理。
+//注意：RACMulticastConnection通过RACSignal的-public或者-miticast方法创建
+
+- (void) setRACMulticastConnection{
+    
+}
+
+#pragma mark 常用方法：代理、KVO、监听事件、通知、监听文本框、
+- (void) inCommonUseSelector{
+    //代理：rac_signalForSelector
+    [[self.view rac_signalForSelector:@selector(sendMesage:)] subscribeNext:^(id x) {
+        NSLog(@"点击了");
     }];
 }
 
